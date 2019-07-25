@@ -1,0 +1,28 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: config-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guset
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ouyangxiaobo/Parent-Config.git
+          searchPaths: /
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

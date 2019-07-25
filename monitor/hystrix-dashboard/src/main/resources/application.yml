@@ -1,0 +1,29 @@
+server:
+  port: 8021
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: hystrix-dashboard
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  level:
+    org.springframework.web: debug
+  path: logs/
+  file:
+    max-size: 1GB

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/authentication-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/authentication-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/authorization-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center/bus-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/gateway-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/gateway-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysadmin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysadmin-server/organization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapps" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapps/webapp-parent" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
